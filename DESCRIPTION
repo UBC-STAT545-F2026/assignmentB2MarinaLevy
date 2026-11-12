@@ -2,10 +2,15 @@ Package: assignmentB2MarinaLevy
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Marina", "Levy", , "marinawlevy@gmail.com", role = c("aut", "cre"))
+Description: Given a data frame `data` and a column `group`, `count_all_missing_by_group()` creates a new data frame with one row per level of `group`. The first column of the output data frame contains the levels of `group`, and the rest of the columns contain the number of missing values for all columns in `data` except `group`.
+License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
+Imports: 
+    datasets,
+    dplyr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
