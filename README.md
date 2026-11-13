@@ -26,7 +26,8 @@ devtools::install_github("UBC-STAT545-F2026/assignmentB2MarinaLevy", ref = "1.0"
 
 ## Example
 
-This is a basic example:
+This is a basic example showing missing data by month for the airquality
+dataset:
 
 ``` r
 library(assignmentB2MarinaLevy)

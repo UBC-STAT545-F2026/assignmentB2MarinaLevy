@@ -1,5 +1,5 @@
 Package: assignmentB2MarinaLevy
-Title: What the Package Does (One Line, Title Case)
+Title: Count missing values for all columns by group
 Version: 0.0.0.9000
 Authors@R: 
     person("Marina", "Levy", , "marinawlevy@gmail.com", role = c("aut", "cre"))
